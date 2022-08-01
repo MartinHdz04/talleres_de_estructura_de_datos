@@ -1,0 +1,25 @@
+Traduzca a Kotlin las siguientes expresiones matemáticas:
+
+a)Import kotlin.math.sqrt
+  Import kotlin.math.pow
+    S=math.sqrt((math.pow((x-m),2)/(n-1))
+
+b)Import kotlin.math.sqrt
+  Import kotlin.math.pow
+    p=(-1*((math.pow(y,3))-1))/((y+1)-math.sqrt(y+1))
+
+c)Import kotlin.math.sqrt
+  Import kotlin.math.pow
+    z=(x*(math.pow(math.pow(x,2))+1),3)/((math.sqrt(2*x))+1)
+
+d)Import kotlin.math.sqrt
+  Import kotlin.math.pow
+    t=1-((math.pow((x-2),(1/n)))/(math.pow(x,3)))
+
+c)Import kotlin.math.sqrt
+  Import kotlin.math.pow
+    s=((x!=y)&&(x<=y))
+
+c)Import kotlin.math.sqrt
+  Import kotlin.math.pow
+    s=((a>=(b*c))||(b<=c))
