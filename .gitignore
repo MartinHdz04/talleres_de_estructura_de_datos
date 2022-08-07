@@ -1,2 +1,7 @@
 # Project exclude paths
-/out/
+out/
+.idea/
+talleres_estructura_de_datos.iml/
+src/
+main/
+resources/
