@@ -1,17 +1,7 @@
-package Ejercicio_3
-import kotlin.collections.HashMap
-
-/*
-Entradas
-Edades-->Array<Int>-->edades
-Nombres-->Array<String>-->nombres
-Salidas
-Nombre del menor-->String-->nombre_menor
-Edad del menor-->Int-->edad_menor
-*/
+package Taller2
 
 //función
-fun calculo_menor(edades:Array<Int>, nombres:Array<String>):Pair<String, Int>{
+fun calculo_mayor(edades:Array<Int>, nombres:Array<String>):Pair<String, Int>{
     val nombre1 = nombres[0]
     val nombre2 = nombres[1]
     val nombre3 = nombres[2]
@@ -35,20 +25,20 @@ fun calculo_menor(edades:Array<Int>, nombres:Array<String>):Pair<String, Int>{
 
 //programa
 fun main(){
-    println("Ingrese los nombres de las tres personas seguido de un enter")
+    println("Ingrese los nombres de los tres hermanos seguido de un enter:")
     val nombre1 = readLine()!!.toString()
     val nombre2 = readLine()!!.toString()
     val nombre3 = readLine()!!.toString()
 
     val nombres = arrayOf(nombre1, nombre2, nombre3)
 
-    println("Ingrese las edades de las tres personas seguido de un enter en el orden que uso anteriormente")
+    println("Ingrese las edades de los tres hermanos seguido de un enter en el orden que uso anteriormente")
     val edad1 = readLine()!!.toInt()
     val edad2 = readLine()!!.toInt()
     val edad3 = readLine()!!.toInt()
 
     val edades = arrayOf(edad1, edad2, edad3)
 
-    println("El menor es: ${calculo_menor(edades, nombres).first}")
-    println("Con: ${calculo_menor(edades, nombres).second} años")
+    println("El mayor es: ${calculo_mayor(edades, nombres).first}")
+    println("Con: ${calculo_mayor(edades, nombres).second} años")
 }

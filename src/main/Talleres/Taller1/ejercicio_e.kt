@@ -1,6 +1,4 @@
-package Ejercicio_3
-import java.util.Date
-import kotlin.time.days
+package Taller1
 
 /*
 Entradas
