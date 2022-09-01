@@ -59,15 +59,21 @@ class Ascensor{
 }
 
 fun main(){
-    print("Ingrese la cantidad de pisos, seguido de un enter la cantidad de sotanos del edificio")
-    val n_pisos = readln().toInt()
-    val n_sotanos = readln().toInt()
-    print("Piso actual: ")
-    val piso_actual = readln().toInt()
-    var ascensor = Ascensor(n_pisos, n_sotanos, piso_actual)
+
+    var ascensor = Ascensor(10, 3, 2)
+    print("Piso actual: ${ascensor.getPiso_actual()}")
 
     do{
         print("1.Subir  2.Bajar  3.Salir")
         var opcion = readln().toInt()
+        if(opcion==1){
+            ascensor.sigArr()
+        }
+        if(opcion==2){
+            ascensor.sigAbj()
+        }
+        if(opcion==3){
+            continue
+        }
     }while(opcion != 3)
 }
